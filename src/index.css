@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --trackunit-red: #8A212B;
+  --trackunit-red-hover: #6B1922;
+  --trackunit-red-light: #FDF2F3;
+  --trackunit-red-border: #FCA5A5;
+  --trackunit-dark: #0F172A;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #0F172A;
+    background-color: #F8FAFC;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Trackunit Brand Utilities */
+.bg-trackunit-red {
+  background-color: #8A212B;
+}
+
+.text-trackunit-red {
+  color: #8A212B;
+}
+
+.border-trackunit-red {
+  border-color: #8A212B;
+}
+
+.hover\:bg-trackunit-red-dark:hover {
+  background-color: #6B1922;
+}
+

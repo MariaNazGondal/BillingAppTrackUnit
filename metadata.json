@@ -1,0 +1,6 @@
+{
+  "name": "Trackunit Fleet Billing & Settlement Calculator",
+  "description": "Enterprise telematics dataset ingestion and contract settlement calculator for Trackunit customer fleets, featuring strict date and leap-year validation, duplicate elimination, Trackunit T&C Section 2 compliance, and audit statements.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
